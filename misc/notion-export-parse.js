@@ -1,5 +1,5 @@
 //prepare header
-var CURRENT_MONTH = new Date('May 2021');
+var CURRENT_MONTH = new Date('June 2021');
 var monthName = CURRENT_MONTH.toLocaleString('en', {month: 'long'})
 
 document.querySelector('.page-header-icon').style.display = 'none';
@@ -18,7 +18,7 @@ for (var i = 0; i < elements.length; i++) {
     })
 }
 
-var currentMonthNumber = new Date("May 2021").getMonth();
+var currentMonthNumber = CURRENT_MONTH.getMonth();
 
 // Filter by current month
 order = order.filter(item => item.date.getMonth() === currentMonthNumber);
