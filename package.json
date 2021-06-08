@@ -1,0 +1,18 @@
+{
+  "name": "coding-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hard/bulls-and-cows.js",
+  "dependencies": {
+    "jest": "^27.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "coverageProvider": "v8"
+  }
+}
