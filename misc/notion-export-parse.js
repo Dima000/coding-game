@@ -1,5 +1,5 @@
 //prepare header
-var CURRENT_MONTH = new Date('June 2021');
+var CURRENT_MONTH = new Date('July 2021');
 var monthName = CURRENT_MONTH.toLocaleString('en', {month: 'long'})
 
 document.querySelector('.page-header-icon').style.display = 'none';
@@ -10,7 +10,7 @@ var elements = document.querySelectorAll('tbody tr');
 var order = [];
 
 for (var i = 0; i < elements.length; i++) {
-    const dateStr = elements[i].querySelector('time').innerHTML;
+    const dateStr = elements[i].querySelector('time')?.innerHTML || '';
 
     order.push({
         element: elements[i],
