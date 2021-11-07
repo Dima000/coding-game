@@ -1,6 +1,8 @@
+// @ts-ignore
 const N: number = +readline();
 const lines: string[] = [];
 for (let i = 0; i < N; i++) {
+    // @ts-ignore
     lines.push(readline());
 }
 

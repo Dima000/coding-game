@@ -1,5 +1,5 @@
 //prepare header
-var CURRENT_MONTH = new Date('August 2021');
+var CURRENT_MONTH = new Date('October 2021');
 var monthName = CURRENT_MONTH.toLocaleString('en', { month: 'long' })
 
 document.querySelector('.page-header-icon').style.display = 'none';
